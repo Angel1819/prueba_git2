@@ -1,0 +1,39 @@
+.container {
+  /*ancho*/
+  width: 1600px;
+  /*centrado horizontal con margenes automaticos*/
+  margin: 0 auto;
+  /*espacio interno de 20px en todos los lados*/
+  padding: 20px;
+}
+
+.navbar {
+  /*fondo gris*/
+  background-color: gray;
+  /*color tipografia blanco*/
+  color: white;
+  /*espacio interno 10px*/
+  padding: 10px;
+}
+
+.navbar ul {
+  /*quitar los puntos de la lista*/
+  list-style-type: none;
+  /*eliminar margen (espacio externo)*/
+  margin: 0;
+  /*eliminar padding (espacio interno)*/
+  padding: 0;
+  /*activar flexbox: contenido flexible - alinear la fila*/
+  display: flex;
+}
+
+.navbar a {
+  /*tipografía blanca*/
+  color: white;
+  /*espacio interno 14px arriba/abajo y 20px lados*/
+  padding: 14px 20px;
+  /*quitar el subrayado del enlace*/
+  text-decoration: none;
+  /*centrar el texto dentro del enlace*/
+  text-align: center;
+}
